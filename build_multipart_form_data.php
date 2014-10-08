@@ -1,3 +1,4 @@
+<?php
 function multipart_build_query($fields)
 {
     $boundary = md5(time());
